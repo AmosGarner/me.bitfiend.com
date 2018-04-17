@@ -1,4 +1,13 @@
 {{ "<!-- Navigation -->" | safeHTML }}
-<nav class="navbar navbar-default navbar-fixed-top">
-    Navigation
-</nav>
+<Navigation class="ui inverted menu">
+    <a class="item">
+        <h2>{{.Site.Params.Navigation.Brand}}</h2>
+    </a>
+    <div class="right menu">
+        {{range .Site.Params.Navigation.Right.Links}}
+        <a class="item" href="{{.link}}">
+            <i class="{{.prefix}} nav-icon fa-{{.icon}}"></i>&nbsp;&nbsp;Blog
+        </a>
+        {{end}}
+    </div>
+</Navigation>

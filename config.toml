@@ -14,7 +14,22 @@ theme = "bitfiend-resume"
 
     [params.navigation]
         brand = "Amos Garner"
-
+            [params.navigation.right]
+                [[params.navigation.right.links]]
+                    title = "Blog"
+                    prefix = "fab"
+                    icon = "readme"
+                    link = "/blogs"
+                [[params.navigation.right.links]]
+                    title = "Resumé"
+                    prefix = "fas"
+                    icon = "address-card"
+                    link = "/resume"
+                [[params.navigation.right.links]]
+                    title = "Contact"
+                    prefix = "far"
+                    icon = "envelope"
+                    link = "/contact"
     [params.header]
         image = "head-shot.png"
         name = "Amos Garner"
