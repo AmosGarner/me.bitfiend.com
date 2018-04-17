@@ -1,0 +1,31 @@
+baseURL = "http://me.bitfiend.com/"
+languageCode = "en-us"
+title = "Me.Bitfiend"
+theme = "bitfiend-resume"
+
+[params]
+    name = "Amos Garner"
+    description = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
+    email = "your@email.com"
+
+    # Custom assets
+	custom_css = []
+	custom_js  = []
+
+    [params.navigation]
+        brand = "Amos Garner"
+
+    [params.header]
+        image = "head-shot.png"
+        name = "Amos Garner"
+        subtitle = "Coder - Gamer - Creator"
+
+    [params.footer]
+        [params.footer.location]
+            title = "Location"
+            address = ["Knoxville, TN", "United States of America"]
+        [params.footer.social]
+            title = "My Digital Footprint"
+            [[params.footer.social.networks]]
+                icon = "fa-github"
+                link = "//github.com/AmosGarner"
