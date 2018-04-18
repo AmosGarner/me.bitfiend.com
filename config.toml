@@ -8,12 +8,8 @@ theme = "bitfiend-resume"
     description = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
     email = "your@email.com"
 
-    # Custom assets
-	custom_css = []
-	custom_js  = []
-
     [params.navigation]
-        brand = "Amos Garner"
+        brand = "Bitfiend Coder"
             [params.navigation.right]
                 [[params.navigation.right.links]]
                     title = "Blog"
@@ -30,10 +26,10 @@ theme = "bitfiend-resume"
                     prefix = "far"
                     icon = "envelope"
                     link = "/contact"
+
     [params.header]
-        image = "head-shot.png"
-        name = "Amos Garner"
-        subtitle = "Coder - Gamer - Creator"
+        main = "Amos Garner"
+        sub = "Coder - Gamer - Creator"
 
     [params.footer]
         [params.footer.location]
