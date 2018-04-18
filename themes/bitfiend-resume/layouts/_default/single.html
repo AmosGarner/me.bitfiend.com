@@ -1,0 +1,16 @@
+{{define "main"}}
+    <div class="ui segment">
+        <a href="/blog">Back To Blog</a>
+    </div>
+    <div class="ui segment">
+        <div class="ui header centered">
+            <h2>Title: {{ .Title }}</h2>
+        </div>
+        <div class="ui header centered">
+            <h4>Created: {{ .Date }}</h4>
+        </div>
+    </div>
+    <div class="ui segment inverted">
+        {{ .Content }}
+    </div>
+{{end}}

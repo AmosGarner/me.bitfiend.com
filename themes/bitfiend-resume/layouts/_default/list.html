@@ -1,0 +1,11 @@
+{{define "main"}}
+    {{ .Content }}
+    <ul>
+        {{ range .Pages }}
+            <dl>
+                <dt><a href="{{ .URL }}">{{ .Title }} @ {{ .Date }}</a></dt>
+                <dd>{{ .Summary }}</dd>
+            </dl>
+        {{ end }}
+    </ul>
+{{end}}

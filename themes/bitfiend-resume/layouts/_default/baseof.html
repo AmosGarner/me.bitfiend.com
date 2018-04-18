@@ -5,11 +5,9 @@
     </head>
     <body>
         {{ partial "nav.html" . }}
-        <div class="ui inverted segment">
-            <div class="ui centered header">
-                <h1>Home Page</h1>
-            </div>
-        </div>
+        {{ block "main" .}}
+
+        {{end}}
         {{ partial "scripts.html" . }}
     </body>
 </html>

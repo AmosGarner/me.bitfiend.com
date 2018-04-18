@@ -10,12 +10,13 @@ theme = "bitfiend-resume"
 
     [params.navigation]
         brand = "Bitfiend Coder"
+        link = "/"
             [params.navigation.right]
                 [[params.navigation.right.links]]
                     title = "Blog"
                     prefix = "fab"
                     icon = "readme"
-                    link = "/blogs"
+                    link = "/blog"
                 [[params.navigation.right.links]]
                     title = "Resumé"
                     prefix = "fas"
