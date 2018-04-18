@@ -6,7 +6,7 @@
     <div class="right menu">
         {{range .Site.Params.Navigation.Right.Links}}
         <a class="item" href="{{.link}}">
-            <i class="{{.prefix}} nav-icon fa-{{.icon}}"></i>&nbsp;&nbsp;Blog
+            <i class="{{.prefix}} nav-icon fa-{{.icon}}"></i>&nbsp;&nbsp;{{ .title }}
         </a>
         {{end}}
     </div>
