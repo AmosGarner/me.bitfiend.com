@@ -1,0 +1,29 @@
+{{ define "main" }}
+    <section class="ui container">
+        <section>
+            <div class="ui grid">
+                <div class="two wide column">
+                    <a href="/blog">
+                        <div class="ui labled button">
+                            <i class="fas fa-chevron-circle-left"></i>&nbsp;Back
+                        </div>
+                    </a>
+                </div>
+                <div class="twelve wide column">
+                    <h1 class="ui header inverted centered ">{{ .Title }}</h1>
+                </div>
+            </div>
+            <div class="ui segment">
+                <article>
+                    {{ .Content }}
+                </article>
+            </div>
+        </section>
+        <aside class="ui inverted segment meta">
+            <section>
+                <h4> {{ .Date.Format "Mon : Jan 2, 2006" }} </h4>
+                <h5> {{ .WordCount }} Words </h5>
+            </section>
+        </aside>
+    </section>
+{{ end }}
