@@ -1,4 +1,4 @@
-baseURL = "http://me.bitfiend.com/"
+baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
 title = "Me.Bitfiend"
 theme = "bitfiend-resume"
