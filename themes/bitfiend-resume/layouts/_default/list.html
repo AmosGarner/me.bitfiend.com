@@ -1,7 +1,7 @@
 {{ define "main" }}
     <div class="ui main text container">
         <h1 class="ui header inverted centered">{{ .Title }}</h1>
-        <div class="ui segment">
+        <div class="ui inverted segment">
             {{ .Content }}
         </div>
         <div class="ui inverted segment">
@@ -13,7 +13,7 @@
                 <div class="item">
                     <div class="ui segment">
                         <div class="content">
-                            <a class="header" href="#">{{ .Title }} @ {{ .Date.Format "Jan 2, 2006" }}</a>
+                            <a class="header" href="{{ .Permalink }}">{{ .Title }} | {{ .Date.Format "Jan 2, 2006" }}</a>
                             <div class="content">
                                 {{ .Summary | truncate 40}}
                             </div>
