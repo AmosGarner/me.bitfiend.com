@@ -1,11 +1,33 @@
-{{define "main"}}
-    {{ .Content }}
-    <ul>
-        {{ range .Pages }}
-            <dl>
-                <dt><a href="{{ .URL }}">{{ .Title }} @ {{ .Date }}</a></dt>
-                <dd>{{ .Summary }}</dd>
-            </dl>
-        {{ end }}
-    </ul>
-{{end}}
+{{ define "main" }}
+    <div class="ui main text container">
+        <h1 class="ui header inverted centered">{{ .Title }}</h1>
+        <div class="ui segment">
+            {{ .Content }}
+        </div>
+        <div class="ui inverted segment">
+            {{ $posts := (.Pages) }}
+            {{ $postsCount := len $posts }}
+            <h2 class="ui header">Posts:</h2>
+            <div class="ui relaxed divided list">
+                {{ range .Pages }}
+                <div class="item">
+                    <div class="ui segment">
+                        <div class="content">
+                            <a class="header" href="#">{{ .Title }} @ {{ .Date.Format "Jan 2, 2006" }}</a>
+                            <div class="content">
+                                {{ .Summary | truncate 40}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+            <h5>Total Posts: {{ $postsCount }}</h5>
+        </div>
+        <div class="ui vertical button" tabindex="0">
+            <div class="content">
+                <a href="#PageTop"><i class="fas fa-angle-up icon"></i></a>
+            </div>
+        </div>
+    </div>
+{{ end }}
