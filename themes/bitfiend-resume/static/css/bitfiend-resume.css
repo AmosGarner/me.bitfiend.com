@@ -2,6 +2,14 @@ body{
     background-color: #2f3538;
 }
 
+.brand h2{
+    color: Tomato;
+}
+
+.brand h2:hover{
+    color: white;
+}
+
 .nav-icon{
     color: Tomato;
 }
