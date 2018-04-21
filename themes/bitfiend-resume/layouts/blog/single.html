@@ -1,63 +1,61 @@
 {{ define "main" }}
-    <div class="ui main text container">
-        <nav class="ui stackable inverted secondary menu">
-            <div class="ui item">
-                <a class="ui labled icon inverted orange button" href="/blog">
-                    <h4 class=""><i class="fas fa-chevron-circle-left"></i>&nbsp;Back</h4>
-                </a>
-            </div>
-            <div class="ui item">
-                <h1 class="ui header inverted">{{ .Title }}</h1>
-            </div>
-        </nav>
-        <div class="ui segment">
-            {{ .Content }}
+    <nav class="ui stackable inverted secondary menu">
+        <div class="ui item">
+            <a class="ui labled icon inverted orange button" href="/blog">
+                <h4 class=""><i class="fas fa-chevron-circle-left"></i>&nbsp;Back</h4>
+            </a>
         </div>
-        <div class="ui inverted segment meta">
-            <h3 class="ui header">Article Data:</h3>
-            <div class="ui stackable inverted secondary menu">
-                <div class="active item">
-                    <h4>{{ .Date.Format "Mon : Jan 2, 2006" }} </h4>
-                </div>
-                <div class="item">
-                    <h4>{{ .WordCount }} Words</h4>
-                </div>
-                <div class="item">
-                    <div class="ui horizonal list">
-                        <a href="#">#HashTag |</a>
-                        <a href="#">#HashTag |</a>
-                        <a href="#">#HashTag |</a>
-                    </div>
+        <div class="ui item">
+            <h1 class="ui header inverted">{{ .Title }}</h1>
+        </div>
+    </nav>
+    <div class="ui segment">
+        {{ .Content }}
+    </div>
+    <div class="ui inverted segment meta">
+        <h3 class="ui header">Article Data:</h3>
+        <div class="ui stackable inverted secondary menu">
+            <div class="active item">
+                <h4>{{ .Date.Format "Mon : Jan 2, 2006" }} </h4>
+            </div>
+            <div class="item">
+                <h4>{{ .WordCount }} Words</h4>
+            </div>
+            <div class="item">
+                <div class="ui horizonal list">
+                    <a href="#">#HashTag |</a>
+                    <a href="#">#HashTag |</a>
+                    <a href="#">#HashTag |</a>
                 </div>
             </div>
         </div>
-        <div class="ui inverted segment tags">
-            <h3>Tags:</h3>
-            <div class="ui middle aligned horizontal list">
-                <div class="item">
-                    Programming
-                </div>
-                <div class="item">
-                    Unity
-                </div>
-                <div class="item">
-                    C#
-                </div>
-                <div class="item">
-                    Web Dev
-                </div>
-                <div class="item">
-                    Blog
-                </div>
-                <div class="item">
-                    A. Gamer Studios
-                </div>
+    </div>
+    <div class="ui inverted segment tags">
+        <h3>Tags:</h3>
+        <div class="ui middle aligned horizontal list">
+            <div class="item">
+                Programming
+            </div>
+            <div class="item">
+                Unity
+            </div>
+            <div class="item">
+                C#
+            </div>
+            <div class="item">
+                Web Dev
+            </div>
+            <div class="item">
+                Blog
+            </div>
+            <div class="item">
+                A. Gamer Studios
             </div>
         </div>
-        <div class="ui vertical button" tabindex="0">
-            <div class="content">
-                <a href="#PageTop"><i class="fas fa-angle-up icon"></i></a>
-            </div>
+    </div>
+    <div class="ui vertical button" tabindex="0">
+        <div class="content">
+            <a href="#PageTop"><i class="fas fa-angle-up icon"></i></a>
         </div>
     </div>
 {{ end }}
