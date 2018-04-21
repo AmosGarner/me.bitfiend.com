@@ -5,8 +5,41 @@
     </head>
     <body>
         {{ partial "nav.html" . }}
-        <div class="ui main text container">
+        <div class="ui main text inverted segment">
+            <div class="ui sizer vertical inverted segment">
+                <img class="ui centered medium circular image" src="{{ .Site.BaseURL }}/images/head-shot.png" alt="">
+                <div class="ui huge centered header">{{ .Site.Params.Name }}</div>
+                <div class="ui centered sub header">{{ .Site.Params.Description }}</div>
+            </div>
+            <div class="ui segment">
+                <div class="ui raised segment">
+                    <p>Some filler text about who I am, where I come from, and what I'm all about. Maybe I can put this content in the config.toml file. This is a good sized sentance that should represent something I have to say. This is a smaller sentance. This sentance is small. Amos Coded. (Tiny sentance)</p>
+                </div>
+                <div class="divider"></div>
+                <div class="ui stackable two column grid">
+                    <div class="column">
+                        <div class="ui center aligned inverted stacked segment">
+                            <div class="ui medium centered header">My Blog</div>
+                            <p>Short description of my blog and a list of the last 3 posts.</p>
+                            <a class="ui orange inverted button" href="/blog">
+                                Learn More &nbsp<i class="fas fa-chevron-circle-right icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="ui center aligned inverted stacked segment">
+                            <div class="ui medium centered header">My Resume</div>
+                            <p>Description of what you will find on my resume page and a link to that page.</p>
+                            <a class="ui orange inverted button" href="/resume">
+                                Learn More &nbsp<i class="fas fa-chevron-circle-right icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
         </div>
+        {{ partial "footer.html" . }}
         {{ partial "scripts.html" . }}
     </body>
 </html>
