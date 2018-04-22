@@ -21,7 +21,7 @@
         <h3>Tags:</h3>
         <div class="ui middle aligned horizontal list">
             {{ range .Params.Tags}}
-                <div class="item">{{ . }}</div>
+                <div class="item">{{ . | safeHTML}}</div>
             {{ end }}
         </div>
     </div>
