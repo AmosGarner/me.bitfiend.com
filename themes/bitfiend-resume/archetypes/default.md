@@ -2,6 +2,5 @@
 title: "{{ replace .Name "-" " " | title }}"
 created: {{ .Date }}
 updated: {{ .Date }}
-description: ""
 draft: true
 ---
