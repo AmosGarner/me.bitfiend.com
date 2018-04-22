@@ -1,14 +1,7 @@
 {{ define "main" }}
-    <nav class="ui stackable inverted secondary menu">
-        <div class="ui item">
-            <a class="ui labled icon inverted orange button" href="/blog">
-                <h4 class=""><i class="fas fa-chevron-circle-left"></i>&nbsp;Back</h4>
-            </a>
-        </div>
-        <div class="ui item">
-            <h1 class="ui header inverted">{{ .Title }} By: {{ range .Params.Authors }} {{ . }} {{end}}</h1>
-        </div>
-    </nav>
+    <div class="ui huge inverted centered header">
+        {{ .Title }} By: {{ range .Params.Authors }} {{ . }} {{end}}
+    </div>
     <div class="ui segment">
         {{ .Content }}
     </div>
