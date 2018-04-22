@@ -7,7 +7,7 @@ updatedDate: April 22, 2018
 description: This is a description of what this post is about.
 authors: [Amos Garner]
 tags: [Programming, Unity, C#]
-draft: true
+draft: false
 ---
 # public static void HelloWorld()
 ---
