@@ -1,11 +1,13 @@
 ---
 title: "Hello World"
-created: 2018-04-22T11:33:14-04:00
-updated: 2018-04-22T11:33:14-04:00
-description: ""
-authors: [""]
-tags: [""]
-draft: false
+createdDay: Sunday
+createdDate: April 22, 2018
+updatedDay: Sunday
+updatedDate: April 22, 2018
+description: This is a description of what this post is about.
+authors: [Amos Garner]
+tags: [Programming, Unity, C#]
+draft: true
 ---
 # public static void HelloWorld()
 ---
