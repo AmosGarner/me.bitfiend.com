@@ -14,7 +14,7 @@
                     <div class="content">
                         <a class="header" href="{{ .Permalink }}">{{ .Title }} | {{ .Params.CreatedDate}}</a>
                         <div class="content">
-                            {{ .Params.Description | safeHTML | truncate 75 }}
+                            {{ .Params.Description | truncate 75 }}
                         </div>
                     </div>
                 </div>
