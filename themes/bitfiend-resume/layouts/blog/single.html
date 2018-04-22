@@ -1,6 +1,6 @@
 {{ define "main" }}
     <div class="ui huge inverted centered header">
-        {{ .Title }} By: {{ range .Authors }} {{ . }} {{end}}
+        {{ .Title }} By: {{ range .Params.Authors }} {{ . }} {{end}}
     </div>
     <div class="ui segment">
         {{ .Content }}
@@ -9,10 +9,10 @@
         <h3 class="ui header">Article Data:</h3>
         <div class="ui stackable inverted secondary menu">
             <div class="item">
-                <h4>Created: {{ .CreatedDay }} {{ .CreatedDate }}</h4>
+                <h4>Created: {{ .Params.CreatedDay }} {{ .Params.CreatedDate }}</h4>
             </div>
             <div class="item">
-                <h4>Updated: {{ .UpdatedDay }} {{ .UpdatedDate }}</h4>
+                <h4>Updated: {{ .Params.UpdatedDay }} {{ .Params.UpdatedDate }}</h4>
             </div>
             <div class="item">
                 <h4>{{ .WordCount }} Words</h4>
@@ -20,7 +20,7 @@
         </div>
         <h3>Tags:</h3>
         <div class="ui middle aligned horizontal list">
-            {{ range .Tags}}
+            {{ range .Params.Tags}}
                 <div class="item">{{ . }}</div>
             {{ end }}
         </div>
