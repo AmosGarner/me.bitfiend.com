@@ -2,7 +2,7 @@
 title: "Resumé"
 created: 2018-04-22T11:32:15-04:00
 updated: 2018-04-22T11:32:15-04:00
-draft: true
+draft: false
 ---
 # Experience
 ## [A. Gamer Studios](http://agamerstudios.com/): Nov '16 - Present
