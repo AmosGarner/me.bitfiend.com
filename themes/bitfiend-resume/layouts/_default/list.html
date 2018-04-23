@@ -10,14 +10,16 @@
             {{ partial "pagination.html" . }}
             {{ range $paginator.Pages }}
             <div class="item">
-                <div class="ui segment">
-                    <div class="content">
-                        <a class="header" href="{{ .URL }}">{{ .Title }} | {{ .Params.CreatedDate}}</a>
-                        <div class="content">
+                <a class="header" href="{{ .URL }}">
+                    <div class="ui segment">
+                        <div class="itemTitle ui header">
+                            {{ .Params.CreatedDate}} | {{ .Title }} 
+                        </div>
+                        <div class="itemContent">
                             {{ .Description | safeHTML | truncate 75 }}
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             {{ end }}
         </div>
