@@ -5,7 +5,7 @@
     </head>
     <body>
         {{ partial "nav.html" . }}
-        <div class="ui main text">
+        <div class="ui main text container">
             {{ partial "breadcrumbs.html" .}}
             {{ block "main" .}}{{end}}
         </div>
