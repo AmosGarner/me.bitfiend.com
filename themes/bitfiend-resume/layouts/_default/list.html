@@ -12,7 +12,7 @@
             <div class="item">
                 <div class="ui segment">
                     <div class="content">
-                        <a class="header" href="{{ .Permalink }}">{{ .Title }} | {{ .Params.CreatedDate}}</a>
+                        <a class="header" href="{{ .URL }}">{{ .Title }} | {{ .Params.CreatedDate}}</a>
                         <div class="content">
                             {{ .Description | safeHTML | truncate 75 }}
                         </div>
