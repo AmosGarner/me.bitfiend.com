@@ -4,24 +4,23 @@
         {{ .Content }}
     </div>
     <div class="ui inverted segment">
-        {{ $posts := (.Pages) }}
-        {{ $postsCount := len $posts }}
         <h2 class="ui header">Posts:</h2>
         <div class="ui relaxed divided list">
-            {{ range .Pages }}
+            {{ $paginator := (.Paginator 5) }}
+            {{ partial "pagination.html" . }}
+            {{ range $paginator.Pages }}
             <div class="item">
                 <div class="ui segment">
                     <div class="content">
-                        <a class="header" href="{{ .Permalink }}">{{ .Title }} | {{ .Date.Format "Jan 2, 2006" }}</a>
+                        <a class="header" href="{{ .URL }}">{{ .Title }} | {{ .Params.CreatedDate}}</a>
                         <div class="content">
-                            {{ .Summary | truncate 40}}
+                            {{ .Description | safeHTML | truncate 75 }}
                         </div>
                     </div>
                 </div>
             </div>
             {{ end }}
         </div>
-        <h5>Total Posts: {{ $postsCount }}</h5>
     </div>
     <div class="ui vertical button" tabindex="0">
         <div class="content">

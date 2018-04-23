@@ -1,6 +1,12 @@
 ---
 title: "Hello World"
-date: 2018-04-17T21:42:27-04:00
+createdDay: Sunday
+createdDate: April 22, 2018
+updatedDay: Sunday
+updatedDate: April 22, 2018
+description: This is a description of what this post is about.
+authors: [Amos Garner]
+tags: [Programming, Unity, C&num;]
 draft: false
 ---
 # public static void HelloWorld()
