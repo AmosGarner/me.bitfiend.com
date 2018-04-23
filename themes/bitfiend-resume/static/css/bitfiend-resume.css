@@ -1,10 +1,11 @@
- :root{
+/* For some reason the new css page isnt deploying */
+:root{
      --PrimaryColor: hsl(33, 100%, 50%);
      --PrimaryColorGrey: hsl(33, 100%, 40%);
      --PrimaryColorDark: hsl(33, 7%, 15%);
      --Light: hsl(33, 0%, 70%);
  }
-/* For some reason the new css page isnt deploying */
+
 body{
     background-color: var(--PrimaryColorDark);
 }
