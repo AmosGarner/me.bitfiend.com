@@ -2,7 +2,7 @@
 title: "Contact"
 created: 2018-04-22T11:32:15-04:00
 updated: 2018-04-22T11:32:15-04:00
-draft: true
+draft: false
 ---
 Please use the form below if you wish to contact me.
 ---
