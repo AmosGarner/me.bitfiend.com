@@ -14,7 +14,7 @@ draft: false
 C#: Print to Unity Debug Console
 ```
     public static void HelloWorld(){
-        Console.Log("Hey Oh!!!")
+        Console.Log("Hey Oh!!!");
     }
 ```
 ---
