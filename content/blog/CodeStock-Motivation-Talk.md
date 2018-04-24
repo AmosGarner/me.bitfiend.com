@@ -36,6 +36,11 @@ Version 1.0 was very basic in that we, as animals, sought out direct solutions t
 Version 2.0 built up humans to be more complicated, allowing them to have more motivators but simplifying the ability to motivate a human to continue behaviors that were deemed "good". If a human preformed an action and was then rewarded with a negative reaction they would preform that action less and vice-versa. This is know as positive and negative reinforcement, and for the longest time was considered the main driver behind understanding human behavior.
 
 * 2.1 : 1950 AC -> 1970 AC (Humans as Androids)
-    *
-    
+    * All the great things about V2.0
+    * Added the concept of Personal Achievement & Enjoyment
+    * Hygiene Factor: A motivator that will eventually lose it's meaning
+    * Hygiene Factors V.s. Actual Motivators
+    * Hygiene Factors: Money, Safety, Security
+    * Motivators: Growth, Recognition, Accomplishments
+
 * 3.0 :
