@@ -7,7 +7,7 @@ updatedDate: April 24, 2018
 description: My thoughts on a talk about Motivation given by Arthur Doler.
 authors: [Amos Garner]
 tags: [CodeStock, CodeStock_18, WriteUp]
-draft: false
+draft: true
 ---
 During the CodeStock 2018 convention, I attended a talk given by [Arthur Doler](https://arthurdoler.com/) titled [What Makes You Do Stuff?](https://www.slideshare.net/arthurdoler/what-makes-you-do-stuff-the-psychology-of-motivation-codestock-2018-94464280). I really enjoyed the content presented in this talk and this is a write up of some of that content and my thoughts on it.
 
