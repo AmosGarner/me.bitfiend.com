@@ -19,9 +19,9 @@ During the talk, we learned that psychologist have identified 4 different versio
 Motivation Levels
 ---
 * 1.0 : 1 Billion BC -> 15,000 BC (Humans As Animals)
-	* Hungry -> Eat
-	* Thirsty -> Drink
-	* Tired -> Sleep
+    * Hungry -> Eat
+    * Thirsty -> Drink
+    * Tired -> Sleep
     * Drive Theory
 
 <img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Drive_Theory.png" />
@@ -31,12 +31,12 @@ Version 1.0 was very basic in that we, as animals, sought out direct solutions t
 * 2.0 : 15,000 BC -> 1950 CE (Humans as Machines)
     * An **Action** would be **Preformed**
     * The result would either be **Positive** or **Negative**
-    * the amount of times that action was preformed afterwards would change
+    * the number of times that action was performed afterward would change
     * Behaviorist theory
 
 <img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Behaviorist_Theory.png" />
 
-Version 2.0 built up humans to be more complicated, allowing them to have more motivators but simplifying the ability to motivate a human to continue behaviors that were deemed "good". If a human preformed an action and was then rewarded with a negative reaction they would preform that action less and vice-versa. This is know as positive and negative reinforcement, and for the longest time was considered the main driver behind understanding human behavior.
+Version 2.0 built up humans to be more complicated, allowing them to have more motivators but simplifying the ability to motivate a human to continue behaviors that were deemed "good". If a human performed an action and was then rewarded with a negative reaction they would perform that action less and vice-versa. This is known as positive and negative reinforcement, and for the longest time was considered the main driver of understanding human behavior.
 
 * 2.1 : 1950 AC -> 1970 AC (Humans as Androids)
     * All the great things about V2.0
@@ -48,48 +48,48 @@ Version 2.0 built up humans to be more complicated, allowing them to have more m
 
 <img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/2.1.png" />
 
-Version 2.1 built off of 2.0's platform but it added the idea of hygiene factors and actual motivators like **personal achievement** and task **enjoyment**. This new outlook on the human psychology allowed a more flexible view into the motivators of human kind. However...
+Version 2.1 built off of 2.0's platform but it added the idea of hygiene factors and actual motivators like **personal achievement** and task **enjoyment**. This new outlook on the human psychology allowed a more flexible view into the motivators of humankind. However...
 
 ## These Versions Are All Wrong
 
 ---
 
-Based on a whole bunch of scientific experiments in the field of psychology during the late 70's (there in the presentation if you care to look them up) it was found that there were basically two types of personalities out there. Each personality is able to change from one to the other and you can be one type about one subject while simultaneously being the other personality type on another subject. This new personality version was called...
+Based on a whole bunch of scientific experiments in the field of psychology during the late 70's (there in the presentation if you care to look them up) it was found that there were basically two types of personalities out there. Each person is able to change from one personality to the other and you can be one type about one subject while simultaneously being the other personality type on another subject. This new personality version was called...
 
 * 3.0 : 1970 CE ~ Present (Humans as Humans)
-	* Extrinsic Motivation
-		* Algorithmic Behavior
-	* Intrinsic Motivation
-		* Heuristic Behavior
-	* Humans are natural rule benders
-	* Type I and Type X Personalities
+    * Extrinsic Motivation
+        * Algorithmic Behavior
+    * Intrinsic Motivation
+        * Heuristic Behavior
+    * Humans are natural rule benders
+    * Type I and Type X Personalities
 
 <img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/3.0.png" />
 
 
-This new research revealed that people were either motivated by Intrinsic motivators such as personal achievement or extrinsic motivators like money. These people were broken up into two groups, Type I people and Type X.
+This new research revealed that people were either motivated by Intrinsic motivators such as personal achievement or extrinsic motivators like money. These people were broken up into two groups, Type I people, and Type X.
 
 * Type I
-	* Motivation 3.0
-	* Preforms best in the Long Run
-	* Self Motivating
-	* Money is usually a Hygiene Factor
-	* Internally Focused
+    * Motivation 3.0
+    * Performs best in the Long Run
+    * Self Motivating
+    * Money is usually a Hygiene Factor
+    * Internally Focused
 
 * Type X
-	* Motivation 2.0
-	* Preforms best in the Short Run
-	* Capable of Burnout
-	* Money is usually the end goal
-	* Externally Focused
+    * Motivation 2.0
+    * Performs best in the Short Run
+    * Capable of Burnout
+    * Money is usually the end goal
+    * Externally Focused
 
 
-It also turns out that humans have the amazing ability to change what type of person they are. Arthur's presentation also went on to point out that several companies hire specifically the personality type that is most prevalent inside their company. This is interesting because the quickest way to change a type I person into a type X is to put them in a group with a large number of type Xs and vice-versa.
+It also turns out that humans have the amazing ability to change what type of person they are. Arthur's presentation also went on to point out that several companies hire specifically the personality type that is most prevalent in their company. This is interesting because the quickest way to change a type I person into a type X is to put them in a group with a large number of type Xs and vice-versa.
 
-This may sound familiar to you if you have heard the theory that intelligence is made and not born. It is theorized that a person's ability to become more intelligence is greatly influenced by their belief of this concept. This philosophy is well presented in this [keynote](https://www.youtube.com/watch?v=W47rcJowx7k) by [Linda Rising](https://en.wikipedia.org/wiki/Linda_Rising) where she spends a great deal of time talking about intelligence and if your born with it or if it's a muscle that can be trained.
+This may sound familiar to you if you have heard the theory that intelligence is made and not born. It is theorized that a person's ability to become more intelligence is greatly influenced by their belief in this concept. This philosophy is well presented in this [keynote](https://www.youtube.com/watch?v=W47rcJowx7k) by [Linda Rising](https://en.wikipedia.org/wiki/Linda_Rising) where she spends a great deal of time talking about intelligence and if you're born with it or if it's a muscle that can be trained.
 
 ---
 
 Ultimately though the point that I'm trying to get across is that it struck me, during Arthur's presentation, that these incredible different people came to the same general point while discussing completely different domains. If you ever get a chance to see these two speakers then I highly recommend taking the opportunity. To me, it illustrates that maybe nothing in this world is a constant. We should challenge ourselves to identify the type X and type I inside us and work towards finding value in all the things we do in life. In closing, I leave you with this.
 
-`If your in a field of cows and two cows are crowing you might not be a farmer.` ~ Amos Garner
+`If you're in a field of cows and two cows are crowing you might not be a farmer.` ~ Amos Garner
