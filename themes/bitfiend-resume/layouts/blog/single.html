@@ -1,6 +1,9 @@
 {{ define "main" }}
-    <div class="ui huge inverted centered header">
-        {{ .Title }} By: {{ range .Params.Authors }} {{ . }} {{end}}
+    <div class="ui inverted centered medium header">
+        {{ .Title }}
+    </div>
+    <div class="ui inverted centered small header">
+        By: {{ range .Params.Authors }} {{ . }} {{end}}
     </div>
     <div class="ui segment">
         {{ .Content }}
