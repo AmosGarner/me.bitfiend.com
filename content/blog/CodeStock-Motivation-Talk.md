@@ -12,9 +12,11 @@ draft: false
 During the CodeStock 2018 convention, I attended a talk given by [Arthur Doler](https://arthurdoler.com/) titled [What Makes You Do Stuff?](https://www.slideshare.net/arthurdoler/what-makes-you-do-stuff-the-psychology-of-motivation-codestock-2018-94464280). I really enjoyed the content presented in this talk and this is a write up of some of that content and my thoughts on it.
 
 Arthur began by giving a brief disclaimer that he is not a professional psychologist. I would like to extend that same disclaimer about myself now.    The content found, both in this talk and in this write-up, is not meant to be taken as fact. Now, to begin with, Arthur began by explaining just what he meant when he used the term "Motivation". In his own words, he provided the following slide to explain this.
-<img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Motivation_SS_1.png" />
+
+<img class="ui large centered image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Motivation_SS_1.png" />
 
 During the talk, we learned that psychologist have identified 4 different versions of motivation found in humans that I will list below.
+
 ---
 Motivation Levels
 ---
@@ -24,7 +26,7 @@ Motivation Levels
     * Tired -> Sleep
     * Drive Theory
 
-<img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Drive_Theory.png" />
+<img class="ui large centered image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Drive_Theory.png" />
 
 Version 1.0 was very basic in that we, as animals, sought out direct solutions to our needs. These needs were our motivators at the time. This is the purest form of the motivation to action relationship that we can point to and still see today in the animals around us.
 
@@ -34,7 +36,7 @@ Version 1.0 was very basic in that we, as animals, sought out direct solutions t
     * the number of times that action was performed afterward would change
     * Behaviorist theory
 
-<img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Behaviorist_Theory.png" />
+<img class="ui large centered image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/Behaviorist_Theory.png" />
 
 Version 2.0 built up humans to be more complicated, allowing them to have more motivators but simplifying the ability to motivate a human to continue behaviors that were deemed "good". If a human performed an action and was then rewarded with a negative reaction they would perform that action less and vice-versa. This is known as positive and negative reinforcement, and for the longest time was considered the main driver of understanding human behavior.
 
@@ -46,7 +48,7 @@ Version 2.0 built up humans to be more complicated, allowing them to have more m
     * Hygiene Factors: Money, Safety, Security
     * Motivators: Growth, Recognition, Accomplishments
 
-<img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/2.1.png" />
+<img class="ui large centered image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/2.1.png" />
 
 Version 2.1 built off of 2.0's platform but it added the idea of hygiene factors and actual motivators like **personal achievement** and task **enjoyment**. This new outlook on the human psychology allowed a more flexible view into the motivators of humankind. However...
 
@@ -64,7 +66,7 @@ Based on a whole bunch of scientific experiments in the field of psychology duri
     * Humans are natural rule benders
     * Type I and Type X Personalities
 
-<img class="ui large image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/3.0.png" />
+<img class="ui large centered image" alt="Drive Theory Illustration" src="/resources/blog/CodeStock-Motivation-Talk/3.0.png" />
 
 
 This new research revealed that people were either motivated by Intrinsic motivators such as personal achievement or extrinsic motivators like money. These people were broken up into two groups, Type I people, and Type X.

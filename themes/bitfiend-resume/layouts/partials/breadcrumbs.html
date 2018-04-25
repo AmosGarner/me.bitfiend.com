@@ -3,20 +3,18 @@
 {{ $urlArray := split $url "/"}}
 {{ $urlArrayLen := len $urlArray}}
 
-<div class="ui inverted segment">
-    <div class="ui breadcrumb">
-    {{ range $index, $value := $urlArray}}
-        {{ if eq $index 0}}
-            <a class="section" href='{{ $.Scratch.Get "path" }}'><i class="fas fa-home"></i></a>
+<div class="ui breadcrumb">
+{{ range $index, $value := $urlArray}}
+    {{ if eq $index 0}}
+        <a class="section" href='{{ $.Scratch.Get "path" }}'><i class="fas fa-home"></i></a>
+        <i class="fas fa-chevron-right right icon divider"></i>
+    {{ else }}
+        {{ $.Scratch.Add "path" "/" }}
+        {{ $.Scratch.Add "path" $value }}
+        <a class="section" href='{{ $.Scratch.Get "path" }}'>{{ $value }}</a>
+        {{ if lt (add $index 2) $urlArrayLen }}
             <i class="fas fa-chevron-right right icon divider"></i>
-        {{ else }}
-            {{ $.Scratch.Add "path" "/" }}
-            {{ $.Scratch.Add "path" $value }}
-            <a class="section" href='{{ $.Scratch.Get "path" }}'>{{ $value }}</a>
-            {{ if lt (add $index 2) $urlArrayLen }}
-                <i class="fas fa-chevron-right right icon divider"></i>
-            {{ end }}
-        {{end}}
-    {{ end }}
-    </div>
+        {{ end }}
+    {{end}}
+{{ end }}
 </div>

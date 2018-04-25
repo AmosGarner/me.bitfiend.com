@@ -1,12 +1,12 @@
 {{ "<!-- Navigation -->" | safeHTML }}
-<nav class="ui stackable inverted menu" id="PageTop">
+<nav class="mainNavigation ui stackable inverted menu" id="PageTop">
     <a class="brand item" href="{{ .Site.Params.Navigation.Link }}">
-        <h2>{{.Site.Params.Navigation.Brand}}</h2>
+        <div class="ui header medium">{{.Site.Params.Navigation.Brand}}</div>
     </a>
     <div class="right menu">
         {{range .Site.Params.Navigation.Right.Links}}
-        <a class="item" href="{{.link}}">
-            <i class="{{.prefix}} nav-icon fa-{{.icon}}"></i>&nbsp;&nbsp;{{ .title }}
+        <a class="nav-item item tiny" href="{{.link}}">
+            <i class="{{.prefix}} icon fa-{{.icon}}"></i>&nbsp;&nbsp;{{ .title }}
         </a>
         {{end}}
     </div>
