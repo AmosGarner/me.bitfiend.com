@@ -23,11 +23,19 @@
  }
 
 body{
-    background-color: var(--PrimaryColorDark);
+    background-image: url(/images/RedPlaid.jpg);
 }
 
 p, li{
     font-size: var(--Tinier) !important;
+}
+
+a{
+    color: var(--PrimaryColorGrey) !important;
+}
+
+a:hover{
+    color: var(--PrimaryColor) !important;
 }
 
 .largest{
@@ -71,13 +79,13 @@ p, li{
 }
 
 .breadcrumb a{
-    color: var(--PrimaryColorGrey) !important;
+    color: var(--Light) !important;
     font-size: var(--Tiny) !important;
     text-transform: capitalize;
 }
 
 .breadcrumb a:hover{
-    color: var(--PrimaryColor) !important;
+    color: White !important;
 }
 
 .breadcrumb .fa-chevron-right{
@@ -128,4 +136,8 @@ input{
 
 ::placeholder{
     color: var(--GreyPrimaryDark) !important;
+}
+
+.footer{
+    background-color: var(--PrimaryColorDark) !important;
 }
