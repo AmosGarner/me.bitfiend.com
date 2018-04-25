@@ -2,26 +2,94 @@
      --PrimaryColor: hsl(33, 100%, 50%);
      --PrimaryColorGrey: hsl(33, 100%, 40%);
      --PrimaryColorDark: hsl(33, 7%, 15%);
+
+     --GreyPrimary: hsl(33, 20%, 70%);
+     --GreyPrimaryLight: hsl(33, 20%, 85%);
+     --GreyPrimaryDark: hsl(33, 15%, 60%);
+
+     --VeryLight: hsl(33, 15%, 95%);
      --Light: hsl(33, 0%, 70%);
+
+     --Tiniest: 12px;
+     --Tinier: 16px;
+     --Tiny: 18px;
+     --Smallest: 20px;
+     --Smaller: 24px;
+     --Small: 30px;
+     --Medium: 36px;
+     --Large: 40px;
+     --Larger: 60px;
+     --Largest: 72px;
  }
 
 body{
     background-color: var(--PrimaryColorDark);
 }
 
-.mainNavigation.inverted{
-    /* background-color: hsl(33, 10%, 11%) !important; */
+p, li{
+    font-size: var(--Tinier) !important;
+}
+
+.largest{
+    font-size: var(--Largest) !important;
+}
+
+.larger{
+    font-size: var(--Larger) !important;
+}
+
+.large{
+    font-size: var(--Large) !important;
+}
+
+.medium{
+    font-size: var(--Medium) !important;
+}
+
+.small{
+    font-size: var(--Small) !important;
+}
+
+.smaller{
+    font-size: var(--Smaller) !important;
+}
+
+.smallest{
+    font-size: var(--Smallest) !important;
+}
+
+.tiny{
+    font-size: var(--Tiny) !important;
+}
+
+.tinier{
+    font-size: var(--Tinier) !important;
+}
+
+.tiniest{
+    font-size: var(--Tiniest) !important;
 }
 
 .breadcrumb a{
+    color: var(--PrimaryColorGrey) !important;
+    font-size: var(--Tiny) !important;
+    text-transform: capitalize;
+}
+
+.breadcrumb a:hover{
     color: var(--PrimaryColor) !important;
 }
 
-.brand h2{
+.breadcrumb .fa-chevron-right{
+    color: white !important;
+    font-size: var(--Tiniest) !important;
+}
+
+.brand .header{
     color: var(--PrimaryColorGrey);
 }
 
-.brand h2:hover{
+.brand .header:hover{
     color: var(--PrimaryColor);
 }
 
@@ -47,4 +115,17 @@ body{
 
 .sub{
     letter-spacing: 1px !important;
+    color: var(--GreyPrimary) !important;
+}
+
+.input{
+    background-color: var(--VeryLight) !important;
+}
+
+input{
+    border: 0px !important;
+}
+
+::placeholder{
+    color: var(--GreyPrimaryDark) !important;
 }
