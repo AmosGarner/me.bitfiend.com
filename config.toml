@@ -5,7 +5,8 @@ theme = "bitfiend-resume"
 
 [params]
     name = "Amos Garner"
-    description = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
+    headline = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
+    description = "I am a full-stack software developer with a focus on web technologies. I love building digital solutions for people in order to make their lives better. I'm always trying out new projects and technologies to further better my craft. My personal coding philosophy is: simpler is always better, try to be language/framework agnostic, and never assume anything."
     email = "your@email.com"
 
     [params.navigation]
