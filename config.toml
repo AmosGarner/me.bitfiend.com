@@ -10,35 +10,43 @@ theme = "bitfiend-resume"
     email = "your@email.com"
 
     [params.navigation]
-        brand = "Bitfiend Coder"
+        brand = "BitFiend Coder"
         link = "/"
-            [params.navigation.right]
-                [[params.navigation.right.links]]
-                    title = "Blog"
-                    prefix = "fab"
-                    icon = "readme"
-                    link = "/blog"
-                [[params.navigation.right.links]]
-                    title = "Resumé"
-                    prefix = "fas"
-                    icon = "address-card"
-                    link = "/resume"
-                [[params.navigation.right.links]]
-                    title = "Contact"
-                    prefix = "far"
-                    icon = "envelope"
-                    link = "/contact"
-
-    [params.header]
-        main = "Amos Garner"
-        sub = "Coder - Gamer - Creator"
+        [params.navigation.right]
+            [[params.navigation.right.links]]
+                title = "Blog"
+                prefix = "fab"
+                icon = "readme"
+                link = "/blog"
+            [[params.navigation.right.links]]
+                title = "Resumé"
+                prefix = "fas"
+                icon = "address-card"
+                link = "/resume"
+            [[params.navigation.right.links]]
+                title = "Contact"
+                prefix = "fas"
+                icon = "envelope"
+                link = "/contact"
+        [params.navigation.social]
+            title = "Social Media"
+            prefix = "fas"
+            icon = "link"
+            [[params.navigation.social.links]]
+                title = "LinkedIn"
+                prefix = "fab"
+                icon = "linkedin"
+                link = "https://www.linkedin.com/in/amos-garner-34630694/"
+            [[params.navigation.social.links]]
+                title = "Twitter"
+                prefix = "fab"
+                icon = "twitter-square"
+                link = "https://twitter.com/BitFiendCoder"
+            [[params.navigation.social.links]]
+                title = "Github"
+                prefix = "fab"
+                icon = "github-square"
+                link = "https://github.com/AmosGarner"
 
     [params.footer]
-        [params.footer.location]
-            title = "Location"
-            address = ["Knoxville, TN", "United States of America"]
-        [params.footer.social]
-            title = "My Digital Footprint"
-            [[params.footer.social.networks]]
-                icon = "fa-github"
-                link = "//github.com/AmosGarner"
+        location = "TN"
