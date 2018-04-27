@@ -4,10 +4,22 @@
         <div class="ui header medium">{{.Site.Params.Navigation.Brand}}</div>
     </a>
     <div class="right menu">
-        {{range .Site.Params.Navigation.Right.Links}}
+        {{ range .Site.Params.Navigation.Right.Links }}
         <a class="nav-item item tiny" href="{{.link}}">
             <i class="{{.prefix}} icon fa-{{.icon}}"></i>&nbsp;&nbsp;{{ .title }}
         </a>
-        {{end}}
+        {{ end }}
+        <div class="ui divider"></div>
+        <div class="nav-item ui dropdown item tiny">
+            <i class="{{.Site.Params.Navigation.Social.Prefix}} icon fa-{{.Site.Params.Navigation.Social.Icon}}"></i>&nbsp;
+            <span class="text">{{ .Site.Params.Navigation.Social.Title }}</span>
+            <i class="fas dropdown icon fa-chevron-down"></i>
+            <div class="menu">
+                {{ range .Site.Params.Navigation.Social.Links }}
+                    <a class="item tiny" href="{{.link}}"><i class="{{.prefix}} icon fa-{{.icon}}"></i>&nbsp;{{.title}}</a>
+                {{ end }}
+            </div>
+        </div>
+        
     </div>
 </nav>
