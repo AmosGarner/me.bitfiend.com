@@ -1,5 +1,5 @@
 ---
-title: "Resumé"
+title: "My Resumé"
 created: 2018-04-22T11:32:15-04:00
 updated: 2018-04-22T11:32:15-04:00
 draft: false

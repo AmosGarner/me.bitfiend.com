@@ -19,8 +19,8 @@
                 <div class="ui stackable two column grid">
                     <div class="column">
                         <div class="ui center aligned inverted stacked segment">
-                            <div class="ui medium centered header">My Blog</div>
-                            <p>Short description of my blog and a list of the last 3 posts.</p>
+                            <div class="ui medium centered header">{{ .Site.Params.Blog.Title }}</div>
+                            <p>{{ .Site.Params.Blog.Description }}</p>
                             <a class="ui orange inverted button" href="/blog">
                                 Learn More &nbsp<i class="fas fa-chevron-circle-right icon"></i>
                             </a>
@@ -28,8 +28,8 @@
                     </div>
                     <div class="column">
                         <div class="ui center aligned inverted stacked segment">
-                            <div class="ui medium centered header">My Resume</div>
-                            <p>Description of what you will find on my resume page and a link to that page.</p>
+                            <div class="ui medium centered header">{{ .Site.Params.Resume.Title }}</div>
+                            <p>{{ .Site.Params.Resume.Description }}</p>
                             <a class="ui orange inverted button" href="/resume">
                                 Learn More &nbsp<i class="fas fa-chevron-circle-right icon"></i>
                             </a>
