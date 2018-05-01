@@ -1,6 +1,6 @@
 baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
-title = "Me.Bitfiend"
+title = "BitFiend Coder"
 theme = "bitfiend-resume"
 
 [params]
@@ -8,9 +8,9 @@ theme = "bitfiend-resume"
     headline = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
     description = "I am a full-stack software developer with a focus on web technologies. I love building digital solutions for people in order to make their lives better. I'm always trying out new projects and technologies to further better my craft. My personal coding philosophy is: simpler is always better, try to be language/framework agnostic, and never assume anything."
     email = "your@email.com"
+    NotFoundText = "Uh oh... looks like the page your looking for isn't here."
 
     [params.navigation]
-        brand = "BitFiend Coder"
         link = "/"
         [params.navigation.right]
             [[params.navigation.right.links]]
@@ -47,6 +47,14 @@ theme = "bitfiend-resume"
                 prefix = "fab"
                 icon = "github-square"
                 link = "https://github.com/AmosGarner"
+
+    [params.blog]
+        title = "My Blog"
+        description = "meandering monologues, objective opinions, and humorous heresy."
+
+    [params.resume]
+        title = "My Resumé"
+        description = "Information about my background, education, and experience."
 
     [params.footer]
         location = "TN"
