@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+    <head>
+        {{ partial "head.html" . }}
+    </head>
+    <body>
+        {{ partial "nav.html" . }}
+        <div class="ui main text container inverted segment">
+            <div class="ui sizer vertical inverted segment">
+                <div class="ui centered header large">
+                    {{ .Site.Params.NotFoundText }}
+                </div>
+            </div>
+        </div>
+        {{ partial "footer.html" . }}
+        {{ partial "scripts.html" . }}
+    </body>
+</html>
