@@ -1,7 +1,6 @@
 baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
 title = "BitFiend Coder"
-theme = "Bitfiend-Blog"
 
 [params]
     name = "Amos Garner"
