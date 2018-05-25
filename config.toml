@@ -1,7 +1,7 @@
 baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
 title = "BitFiend Coder"
-theme = "bitfiend-resume"
+theme = "bitfiend-blog"
 
 [params]
     name = "Amos Garner"
@@ -48,13 +48,17 @@ theme = "bitfiend-resume"
                 icon = "github-square"
                 link = "https://github.com/AmosGarner"
 
-    [params.blog]
-        title = "My Blog"
-        description = "meandering monologues, objective opinions, and humorous heresy."
-
-    [params.resume]
-        title = "My Resumé"
-        description = "Information about my background, education, and experience."
+    [params.index]
+        [params.index.column1]
+            title = "My Blog"
+            description = "meandering monologues, objective opinions, and humorous heresy."
+            link = "/blog"
+            link_text = "Learn More"
+        [params.index.column2]
+            title = "My Resumé"
+            description = "Information about my background, education, and experience."
+            link = "/resume"
+            link_text = "Learn More"
 
     [params.footer]
         location = "TN"
