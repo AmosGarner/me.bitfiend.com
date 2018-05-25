@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "hugo"
+  command = "hugo; git submodule update --init --recursive"
 
 [context.production]
   command = "hugo"
