@@ -9,6 +9,8 @@ topics = ["Forestry"]
 [[authors]]
 name = "Amos Garner"
 [[authors]]
+name = "Umlak I'smael"
+[[authors]]
 name = "Shelby Garner"
 [[repeatable_group_field]]
 name = "Amos Garner"
