@@ -22,5 +22,14 @@ fields:
   name: topics
   label: Topics
   description: Topics found in your blog post
+- type: textarea
+  name: description
+  label: Description
+  description: Description of the blog post
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
 pages:
 - content/blog/forestry-test.md
