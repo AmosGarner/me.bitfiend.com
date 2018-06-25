@@ -31,3 +31,5 @@ fields:
   name: topics
   label: Topics
   description: Topics found in your blog post
+pages:
+- content/blog/forestry-test.md
