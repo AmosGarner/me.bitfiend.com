@@ -8,6 +8,8 @@ title = "Forestry Test"
 topics = ["Forestry"]
 [[authors]]
 name = "Amos Garner"
+[[authors]]
+name = "Shelby Garner"
 
 +++
 This is the content.
