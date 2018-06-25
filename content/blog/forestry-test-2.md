@@ -10,6 +10,12 @@ name = "Amos Garner"
 name = "Shelby Garner"
 [[authors]]
 name = "Ahjkldfj' hdskl"
+[[blog_authors]]
+name = "Amos Garner"
+[[blog_authors]]
+name = "Amos Garner"
+[[blog_authors]]
+name = "Amos Garner"
 
 +++
 This is content.
