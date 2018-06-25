@@ -1,0 +1,33 @@
+---
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Title of the blog post
+  config:
+    required: true
+- type: datetime
+  label: Published
+  name: published
+  description: The date this post was marked as published
+  config:
+    required: true
+- type: file
+  name: header_image
+  label: Header Image
+  description: Header image for your blog post
+- type: textarea
+  name: body
+  label: Body
+  description: The content of your blog post
+  config:
+    required: true
+    wysiwyg: true
+    schema:
+      format: markdown
+- type: tag_list
+  name: topics
+  label: Topics
+  description: Topics found in your blog post
