@@ -9,7 +9,7 @@ fields:
   config:
     required: true
 - type: field_group_list
-  name: authors
+  name: repeatable_group_field
   label: Authors
   description: Authors of the blog post
   fields:
@@ -20,6 +20,8 @@ fields:
     default: Amos Garner
     config:
       required: true
+  config:
+    labelField: name
 - type: textarea
   name: description
   label: Description
