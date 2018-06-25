@@ -1,5 +1,5 @@
 ---
-title: Hello World Doofus
+title: Hello World
 createdDay: Sunday
 createdDate: April 22, 2018
 updatedDay: Sunday
@@ -29,8 +29,6 @@ C#: Print to Unity Debug Console
 Desired Output: `Hey Oh!!!`
 
 ***
-
-![dfsafdsafdsa](/uploads/PetSafe_process_77gray Tag.jpg "fdsa")
 
 Welcome to my personal blog! Here, I will be posting opinions, presentations, and general feelings about things that I feel are too big for social media but too small to write a novel about. You might be asking yourself, why did this dude make a blog site when Social Media and Platforms like [Medium](https://medium.com/) already exist?
 
