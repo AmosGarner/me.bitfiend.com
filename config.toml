@@ -1,6 +1,5 @@
 baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
-<<<<<<< HEAD
 theme = "Bitfiend-Blog"
 title = "BitFiend Coder"
 [params]
@@ -57,67 +56,3 @@ icon = "github-square"
 link = "https://github.com/AmosGarner"
 prefix = "fab"
 title = "Github"
-=======
-title = "BitFiend Coder"
-theme = "Bitfiend-Blog"
-
-[params]
-    name = "Amos Garner"
-    headline = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
-    description = "I am a full-stack software developer with a focus on web technologies. I love building digital solutions for people in order to make their lives better. I'm always trying out new projects and technologies to further better my craft. My personal coding philosophy is: simpler is always better, try to be language/framework agnostic, and never assume anything."
-    email = "your@email.com"
-    NotFoundText = "Uh oh... looks like the page your looking for isn't here."
-
-    [params.navigation]
-        link = "/"
-        [params.navigation.right]
-            [[params.navigation.right.links]]
-                title = "Blog"
-                prefix = "fab"
-                icon = "readme"
-                link = "/blog"
-            [[params.navigation.right.links]]
-                title = "Resumé"
-                prefix = "fas"
-                icon = "address-card"
-                link = "/resume"
-            [[params.navigation.right.links]]
-                title = "Contact"
-                prefix = "fas"
-                icon = "envelope"
-                link = "/contact"
-        [params.navigation.social]
-            title = "Social Media"
-            prefix = "fas"
-            icon = "link"
-            [[params.navigation.social.links]]
-                title = "LinkedIn"
-                prefix = "fab"
-                icon = "linkedin"
-                link = "https://www.linkedin.com/in/amos-garner-34630694/"
-            [[params.navigation.social.links]]
-                title = "Twitter"
-                prefix = "fab"
-                icon = "twitter-square"
-                link = "https://twitter.com/BitFiendCoder"
-            [[params.navigation.social.links]]
-                title = "Github"
-                prefix = "fab"
-                icon = "github-square"
-                link = "https://github.com/AmosGarner"
-
-    [params.index]
-        [params.index.column1]
-            title = "My Blog"
-            description = "meandering monologues, objective opinions, and humorous heresy."
-            link = "/blog"
-            link_text = "Learn More"
-        [params.index.column2]
-            title = "My Resumé"
-            description = "Information about my background, education, and experience."
-            link = "/resume"
-            link_text = "Learn More"
-
-    [params.footer]
-        location = "TN"
->>>>>>> 18e69630de7eccd646b4472fba93f12c8871a1a4
