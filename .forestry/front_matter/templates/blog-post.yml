@@ -18,15 +18,6 @@ fields:
   name: header_image
   label: Header Image
   description: Header image for your blog post
-- type: textarea
-  name: body
-  label: Body
-  description: The content of your blog post
-  config:
-    required: true
-    wysiwyg: true
-    schema:
-      format: markdown
 - type: tag_list
   name: topics
   label: Topics
