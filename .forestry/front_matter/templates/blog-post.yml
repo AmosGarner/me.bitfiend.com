@@ -8,12 +8,6 @@ fields:
   description: Title of the blog post
   config:
     required: true
-- type: datetime
-  label: Published
-  name: published
-  description: The date this post was marked as published
-  config:
-    required: true
 - type: textarea
   name: description
   label: Description
