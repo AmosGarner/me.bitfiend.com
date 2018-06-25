@@ -8,6 +8,18 @@ fields:
   description: Title of the blog post
   config:
     required: true
+- type: field_group_list
+  name: authors
+  label: Authors
+  description: Authors of the blog post
+  fields:
+  - type: text
+    name: name
+    label: Name
+    description: Name of the Author
+    default: Amos Garner
+    config:
+      required: true
 - type: textarea
   name: description
   label: Description
@@ -24,6 +36,6 @@ fields:
 - type: tag_list
   name: topics
   label: Topics
-  description: Topics found in your blog post
+  description: Topics found in the blog post
 pages:
 - content/blog/forestry-test.md
