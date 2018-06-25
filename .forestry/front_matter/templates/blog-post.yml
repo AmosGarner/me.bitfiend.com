@@ -18,6 +18,8 @@ fields:
     label: Name
     description: Name of the Author
     default: Amos Garner
+    config:
+      required: true
 - type: textarea
   name: description
   label: Description
