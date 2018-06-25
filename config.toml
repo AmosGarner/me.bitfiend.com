@@ -1,64 +1,58 @@
 baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
-title = "BitFiend Coder"
 theme = "Bitfiend-Blog"
-
+title = "BitFiend Coder"
 [params]
-    name = "Amos Garner"
-    headline = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
-    description = "I am a full-stack software developer with a focus on web technologies. I love building digital solutions for people in order to make their lives better. I'm always trying out new projects and technologies to further better my craft. My personal coding philosophy is: simpler is always better, try to be language/framework agnostic, and never assume anything."
-    email = "your@email.com"
-    NotFoundText = "Uh oh... looks like the page your looking for isn't here."
-
-    [params.navigation]
-        link = "/"
-        [params.navigation.right]
-            [[params.navigation.right.links]]
-                title = "Blog"
-                prefix = "fab"
-                icon = "readme"
-                link = "/blog"
-            [[params.navigation.right.links]]
-                title = "Resumé"
-                prefix = "fas"
-                icon = "address-card"
-                link = "/resume"
-            [[params.navigation.right.links]]
-                title = "Contact"
-                prefix = "fas"
-                icon = "envelope"
-                link = "/contact"
-        [params.navigation.social]
-            title = "Social Media"
-            prefix = "fas"
-            icon = "link"
-            [[params.navigation.social.links]]
-                title = "LinkedIn"
-                prefix = "fab"
-                icon = "linkedin"
-                link = "https://www.linkedin.com/in/amos-garner-34630694/"
-            [[params.navigation.social.links]]
-                title = "Twitter"
-                prefix = "fab"
-                icon = "twitter-square"
-                link = "https://twitter.com/BitFiendCoder"
-            [[params.navigation.social.links]]
-                title = "Github"
-                prefix = "fab"
-                icon = "github-square"
-                link = "https://github.com/AmosGarner"
-
-    [params.index]
-        [params.index.column1]
-            title = "My Blog"
-            description = "meandering monologues, objective opinions, and humorous heresy."
-            link = "/blog"
-            link_text = "Learn More"
-        [params.index.column2]
-            title = "My Resumé"
-            description = "Information about my background, education, and experience."
-            link = "/resume"
-            link_text = "Learn More"
-
-    [params.footer]
-        location = "TN"
+NotFoundText = "Uh oh... looks like the page your looking for isn't here."
+description = "I am a full-stack software developer with a focus on web technologies. I love building digital solutions for people in order to make their lives better. I'm always trying out new projects and technologies to further better my craft. My personal coding philosophy is: simpler is always better, try to be language/framework agnostic, and never assume anything."
+email = "your@email.com"
+headline = "Big bearded Full-Stack Developer with an obsession for red plaid and clean code."
+name = "Amos Garner"
+[params.footer]
+location = "TN"
+[params.index.column1]
+description = "meandering monologues, objective opinions, and humorous heresy."
+link = "/blog"
+link_text = "Learn More"
+title = "My Blog"
+[params.index.column2]
+description = "Information about my background, education, and experience."
+link = "/resume"
+link_text = "Learn More"
+title = "My Resumé"
+[params.navigation]
+link = "/"
+[[params.navigation.right.links]]
+icon = "readme"
+link = "/blog"
+prefix = "fab"
+title = "Blog"
+[[params.navigation.right.links]]
+icon = "address-card"
+link = "/resume"
+prefix = "fas"
+title = "Resumé"
+[[params.navigation.right.links]]
+icon = "envelope"
+link = "/contact"
+prefix = "fas"
+title = "Contact"
+[params.navigation.social]
+icon = "link"
+prefix = "fas"
+title = "Social Media"
+[[params.navigation.social.links]]
+icon = "linkedin"
+link = "https://www.linkedin.com/in/amos-garner-34630694/"
+prefix = "fab"
+title = "LinkedIn"
+[[params.navigation.social.links]]
+icon = "twitter-square"
+link = "https://twitter.com/BitFiendCoder"
+prefix = "fab"
+title = "Twitter"
+[[params.navigation.social.links]]
+icon = "github-square"
+link = "https://github.com/AmosGarner"
+prefix = "fab"
+title = "Github"
