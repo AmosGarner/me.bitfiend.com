@@ -14,14 +14,6 @@ fields:
   description: The date this post was marked as published
   config:
     required: true
-- type: file
-  name: header_image
-  label: Header Image
-  description: Header image for your blog post
-- type: tag_list
-  name: topics
-  label: Topics
-  description: Topics found in your blog post
 - type: textarea
   name: description
   label: Description
@@ -31,5 +23,13 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- type: file
+  name: header_image
+  label: Header Image
+  description: Header image for your blog post
+- type: tag_list
+  name: topics
+  label: Topics
+  description: Topics found in your blog post
 pages:
 - content/blog/forestry-test.md
