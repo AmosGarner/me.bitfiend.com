@@ -10,6 +10,8 @@ topics = ["Forestry"]
 name = "Amos Garner"
 [[authors]]
 name = "Shelby Garner"
+[[repeatable_group_field]]
+name = "Amos Garner"
 
 +++
 This is the content.
