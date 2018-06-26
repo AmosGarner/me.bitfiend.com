@@ -22,12 +22,6 @@ fields:
       required: true
   config:
     labelField: name
-- type: datetime
-  name: sort_date
-  label: Sort Date
-  description: Date that the blog post gets sorted by on the list page.
-  config:
-    required: true
 - type: textarea
   name: description
   label: Description
