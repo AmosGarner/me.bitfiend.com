@@ -1,6 +1,6 @@
 +++
 date = "2018-06-26T09:15:58-04:00"
-description = "My thoughts on a talk about Motivation given by Arthur Doler."
+description = "My thoughts on a Codestock talk about Motivation given by Arthur Doler."
 header_image = ""
 title = "CodeStock: Motivation Talk (Write Up)"
 topics = ["CodeStock", "CodeStock '18"]
