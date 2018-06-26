@@ -2,7 +2,7 @@
 date = "2018-06-26T09:22:12-04:00"
 description = "An Introductory post for my blog that gives some understanding of the site and it's purpose."
 header_image = ""
-title = "Hello-World"
+title = "Hello World"
 topics = ["Site Updates"]
 [[blog_authors]]
 name = "Amos Garner"
