@@ -39,3 +39,5 @@ fields:
   name: topics
   label: Topics
   description: Topics found in the blog post
+pages:
+- content/blog/codestock_motivation.md
