@@ -40,4 +40,5 @@ fields:
   label: Topics
   description: Topics found in the blog post
 pages:
+- content/blog/hello-world.md
 - content/blog/codestock_motivation.md
