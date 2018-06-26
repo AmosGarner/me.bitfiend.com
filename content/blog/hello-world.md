@@ -1,7 +1,6 @@
 +++
 date = "2018-06-26T09:22:12-04:00"
 description = "An Introductory post for my blog that gives some understanding of the site and it's purpose."
-draft = true
 header_image = ""
 title = "Hello-World"
 topics = ["Site Updates"]
