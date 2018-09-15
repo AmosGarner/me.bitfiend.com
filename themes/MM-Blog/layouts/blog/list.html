@@ -1,28 +1,19 @@
 {{ define "main" }}
-<h1 class="bg-black text-orange font-mono font-normal mt-5 p-5">{{ .Title }}</h1>
-<!-- <h1>{{ .Title }}</h1>
-<div>
-    {{ .Content }}
-</div>
-<div>
-    <h2>Posts:</h2>
-    <div>
-        {{ $paginator := (.Paginator 5) }}
-        {{ partial "pagination.html" . }}
-        {{ range $paginator.Pages }}
-        <div>
-            <a>
-                <div>
-                    <div>
-                        <time>{{ .Date.Format "January 2, 2006" }}</time> | {{ .Params.Title }}
-                    </div>
-                    <div>
-                        {{ .Params.Description | safeHTML | truncate 75 }}
-                    </div>
-                </div>
-            </a>
+<h1 class="text-white text-center font-normal text-4xl my-2 p-5">{{ .Title }}</h1>
+<div class="container mx-auto max-w-lg rounded-lg py-5 bg-black">
+    <h4 class="text-white text-center font-hairline text-lg">{{ .Content }}</p>
+        <div class="p-5 m-5 bg-white rounded-lg">
+            <h2 class="text-left text-black">Posts: ({{ .Pages.Len }})</h2>
+            {{ $paginator := (.Paginator 5) }}
+            {{ partial "pagination.html" . }}
+            {{ range $paginator.Pages }}
+            <div class="shadow-lg p-5 m-5 bg-transparent hover:bg-orange-dark text-orange hover:text-white border border-orange hover:border-transparent">
+                <a class="text-orange-darker" href="{{ .URL }}" alt="{{ .Params.Title }}">
+                    <h4><time>{{ .Date.Format "January 2, 2006" }}</time> | {{ .Params.Title }}</h4>
+                    <p>{{ .Params.Description | safeHTML | truncate 70 }}</p>
+                </a>
+            </div>
+            {{ end }}
         </div>
-        {{ end }}
-    </div>
-</div> -->
+</div>
 {{ end }}
