@@ -1,6 +1,6 @@
 baseURL = "https://me.bitfiend.com/"
 languageCode = "en-us"
-theme = "Bitfiend-Blog"
+theme = "MM-Blog"
 title = "BitFiend Coder"
 [params]
 NotFoundText = "Uh oh... looks like the page your looking for isn't here."
