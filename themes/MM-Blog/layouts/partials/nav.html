@@ -1,0 +1,30 @@
+<nav class="flex items-center justify-between flex-wrap bg-black p-6">
+    <div class="mr-6 ">
+        <span class="font-mono text-3xl pr-3 border-r-4 border-grey-darker">
+            <a href="{{ $.Site.BaseURL }}" class="no-underline text-orange hover:text-orange-light">{{ $.Site.Title }}</a>
+        </span>
+    </div>
+    <ul class="list-reset flex">
+        {{ range $.Site.Params.Navigation.Right.Links }}
+        <li class="pr-10 pl-10 border-r-2 border-grey-darkest text-lg">
+            <span class="text-base">
+                <a href="{{ .link }}" class="no-underline text-orange hover:text-orange-light">{{ .title }}</a>
+            </span>
+        </li>
+        {{ end }}
+        <li class="pr-10 pl-10 border-r-2 border-grey-darkest text-lg">
+            <div class="text-base text-orange hover:text-orange-light" onmouseover="displayElement(this)" onmouseout="hideElement(this)">
+                <p class="">{{ $.Site.Params.Navigation.Social.Title }}</p>
+                <ul class="list-reset hidden mt-2">
+                    {{ range $.Site.Params.Navigation.Social.Links }}
+                    <li class="mb-2" data-social-link>
+                        <span class="text-base">
+                            <a href="{{ .link }}" class="no-underline text-orange hover:text-orange-light">{{ .title }}</a>
+                        </span>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </li>
+    </ul>
+</nav>
