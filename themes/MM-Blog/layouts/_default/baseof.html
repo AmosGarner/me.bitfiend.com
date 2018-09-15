@@ -5,6 +5,7 @@
     </head>
     <body class="h-screen font-sans bg-black">
         {{ partial "nav.html" . }}
+        {{ partial "breadcrumbs.html" . }}
         {{ block "main" . }}
         {{ end }}
         {{ partial "footer.html" . }}

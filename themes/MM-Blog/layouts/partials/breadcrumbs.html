@@ -1,0 +1,22 @@
+{{ $.Scratch.Set "path" .Site.BaseURL}}
+{{ $url := .URL }}
+{{ $urlArray := split $url "/"}}
+{{ $urlArrayLen := len $urlArray}}
+
+{{ if ne $url "/" }}
+<div class="container mx-auto max-w-lg mt-6 text-grey text-lg">
+    {{ range $index, $value := $urlArray}}
+    {{ if eq $index 0}}
+    <a class="no-underline text-grey hover:text-grey-light" href='{{ $.Scratch.Get "path" }}'>Home</a>
+    <span>&equals;&gt;</span>
+    {{ else }}
+    {{ $.Scratch.Add "path" "/" }}
+    {{ $.Scratch.Add "path" $value }}
+    <a class="no-underline text-grey hover:text-grey-light capitalize" href='{{ $.Scratch.Get "path" }}'>{{ $value }}</a>
+    {{ if lt (add $index 2) $urlArrayLen }}
+    <span>&dash;&gt;</span>
+    {{ end }}
+    {{ end }}
+    {{ end }}
+</div>
+{{ end }}
