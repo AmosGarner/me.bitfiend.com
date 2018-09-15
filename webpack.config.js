@@ -2,7 +2,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
 module.exports = {
-    entry: './themes/MM-Blog/static/css/styles.css',
+    entry: './themes/MM-Blog/assets/css/styles.css',
     mode: process.env.NODE_ENV,
     plugins: [
         new ExtractTextPlugin('styles.css', {
