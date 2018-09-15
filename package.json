@@ -6,6 +6,11 @@
   "author": "AmosGarner <aagarner.7@gmail.com>",
   "license": "APACHE",
   "devDependencies": {
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "postcss": "^7.0.2",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.0",
     "tailwindcss": "^0.6.5",
     "webpack": "^4.19.0",
     "webpack-cli": "^3.1.0",
