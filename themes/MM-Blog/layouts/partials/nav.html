@@ -6,16 +6,16 @@
     </div>
     <ul class="list-reset flex">
         {{ range $.Site.Params.Navigation.Right.Links }}
-        <li class="pr-10 pl-10 border-r-2 border-grey-darkest text-lg">
+        <li class="px-10 border-r-2 border-grey-darkest text-lg">
             <span class="text-base">
                 <a href="{{ .link }}" class="no-underline text-orange hover:text-orange-light">{{ .title }}</a>
             </span>
         </li>
         {{ end }}
-        <li class="pr-10 pl-10 border-r-2 border-grey-darkest text-lg">
+        <li class="px-10 border-r-2 border-grey-darkest text-lg">
             <div class="text-base text-orange hover:text-orange-light" onmouseover="displayElement(this)" onmouseout="hideElement(this)">
                 <p class="">{{ $.Site.Params.Navigation.Social.Title }}</p>
-                <ul class="absolute bg-white p-5 rounded list-reset mt-2 hidden">
+                <ul class="absolute bg-white p-5 rounded list-reset my-2 hidden">
                     {{ range $.Site.Params.Navigation.Social.Links }}
                     <li class="mb-2" data-social-link>
                         <span class="text-base">
