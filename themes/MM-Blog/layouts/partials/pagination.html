@@ -1,0 +1,26 @@
+{{ $pag := $.Paginator }}
+{{ if gt $pag.TotalPages 1 }}
+<div class="ui pagination menu">
+    {{ if $pag.HasPrev }}
+        <div class="item">
+            <a href="{{ $pag.Prev.URL }}">Prev</a>
+        </div>
+    {{ end }}
+    {{ range $pag.Pagers }}
+    {{if eq . $pag}}
+        <div class="active item">
+            <a href="{{ .URL }}">{{ .PageNumber }}</a>
+        </div>
+    {{ else }}
+        <div class="item">
+            <a href="{{ .URL }}">{{ .PageNumber }}</a>
+        </div>
+    {{ end }}
+    {{ end }}
+    {{ if $pag.HasNext }}
+        <div class="item">
+            <a href="{{ $pag.Next.URL }}">Next</a>
+        </div>
+    {{ end }}
+</div>
+{{ end }}
