@@ -1,4 +1,5 @@
-<script type="text/javascript" src="js/scripts.js"></script>
+{{  $scripts :=  resources.Get "js/scripts.js" }}
+<script type="text/javascript" src="{{ $scripts.Permalink }}"></script>
 
 <div class="absolute bg-black text-center p-4 pin-x pin-b text-white">
     Made with <span class="text-red">&lt;3</span> in TN using
