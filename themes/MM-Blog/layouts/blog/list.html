@@ -1,3 +1,28 @@
 {{ define "main" }}
-    {{ . }}
+<h1 class="bg-black text-orange font-mono font-normal mt-5 p-5">{{ .Title }}</h1>
+<!-- <h1>{{ .Title }}</h1>
+<div>
+    {{ .Content }}
+</div>
+<div>
+    <h2>Posts:</h2>
+    <div>
+        {{ $paginator := (.Paginator 5) }}
+        {{ partial "pagination.html" . }}
+        {{ range $paginator.Pages }}
+        <div>
+            <a>
+                <div>
+                    <div>
+                        <time>{{ .Date.Format "January 2, 2006" }}</time> | {{ .Params.Title }}
+                    </div>
+                    <div>
+                        {{ .Params.Description | safeHTML | truncate 75 }}
+                    </div>
+                </div>
+            </a>
+        </div>
+        {{ end }}
+    </div>
+</div> -->
 {{ end }}
