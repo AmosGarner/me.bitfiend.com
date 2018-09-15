@@ -10,16 +10,16 @@ headline = "Big bearded Full-Stack Developer with an obsession for red plaid and
 name = "Amos Garner"
 [params.footer]
 location = "TN"
-[params.index.column1]
+[[params.index.columns]]
 description = "meandering monologues, objective opinions, and humorous heresy."
 link = "/blog"
 link_text = "Learn More"
-title = "My Blog"
-[params.index.column2]
+title = "Blog"
+[[params.index.columns]]
 description = "Information about my background, education, and experience."
 link = "/resume"
 link_text = "Learn More"
-title = "My Resumé"
+title = "Resumé"
 [params.navigation]
 link = "/"
 [[params.navigation.right.links]]

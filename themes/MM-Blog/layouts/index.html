@@ -1,5 +1,9 @@
 {{ define "main" }}
-<div class="min-h-screen flex items-center justify-center">
-    <h1 class="text-5xl text-green font-sans">Greetings.</h1>
+<div class="container mx-auto max-w-lg rounded-lg py-5 bg-black">
+    <div class="flex justify-center items-center">
+        <img class="rounded-full p-5" src="/images/HeadShot.png" alt="">
+    </div>
+    <h1 class="mb-4 text-center text-white text-4xl">{{ $.Site.Params.Name }}</h1>
+    <h4 class="text-center text-orange-light font-hairline text-md">{{ $.Site.Params.Headline }}</h4>
 </div>
 {{ end }}
