@@ -4,7 +4,6 @@ created: 2018-04-22T11:32:15-04:00
 updated: 2018-04-22T11:32:15-04:00
 draft: false
 ---
-<h1 class="text-center text-white mb-5 text-4xl font-normal">Contact</h1>
 <div class="bg-white p-5 rounded-lg">
     <h2 class="text-black text-xl font-normal font-semibold">Please use the form below if you wish to contact me.</h2>
     <form class="shadow-lg border border-grey-light p-5 mt-2" netlify>
