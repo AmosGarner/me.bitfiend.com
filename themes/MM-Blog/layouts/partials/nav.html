@@ -4,8 +4,8 @@
     </a>
     <ul class="list-reset flex sm:flex-row flex-col sm:ml-auto ml-0 sm:items-center items-left">
         {{ range $.Site.Params.Navigation.Right.Links}}
-        <li class="px-4 border-r-2">
-            <a class="no-underline hover:underline text-orange hover:text-orange-light font-hairline text-xl" href="{{ .link }}">
+        <li class="px-4 sm:border-r-2">
+            <a class="no-underline hover:underline text-orange hover:text-orange-light font-hairline sm:text-xl text-2xl" href="{{ .link }}">
                 {{ .title }}
             </a>
         </li>
