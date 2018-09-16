@@ -9,7 +9,7 @@
                 {{ partial "pagination.html" . }}
                 {{ range $paginator.Pages }}
                 <div class="shadow-lg p-5 m-5 bg-transparent hover:bg-orange-dark text-orange hover:text-white border border-orange hover:border-transparent">
-                    <a class="text-orange-darker" href="{{ .URL }}" alt="{{ .Params.Title }}">
+                    <a class="no-underline text-orange-darker" href="{{ .URL }}" alt="{{ .Params.Title }}">
                         <h4><time>{{ .Date.Format "January 2, 2006" }}</time> | {{ .Params.Title }}</h4>
                         <p>{{ .Params.Description | safeHTML | truncate 70 }}</p>
                     </a>
