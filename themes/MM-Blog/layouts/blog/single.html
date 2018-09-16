@@ -1,3 +1,24 @@
 {{ define "main" }}
-    {{ .Content }}
+<div class="container mx-auto max-w-lg rounded-lg py-5 px-5 bg-black text-center">
+    <h2 class="text-white text-3xl">{{ .Title }}</h2>
+    <h3 class="text-lg text-grey-light">By: {{range .Params.blog_authors }}{{ .name }}{{ end }}</h3>
+    <div class="text-left bg-white p-5 rounded-lg">
+        <div class="p-5 bg-white border border-grey-light rounded overflow-y-scroll shadow-lg" style="height: 450px;">
+            {{ .Content }}
+        </div>
+    </div>
+    <div>
+        <h4>Article Data:</h4>
+        <h5>Created: <time datetime="{{ .Params.Date }}">{{ .Date.Format "January 2, 2006" }}</time></h5>
+        <h5>Words: {{ .WordCount }}</h5>
+        {{ if .Params.Tags.Len}}
+        <h5>Tags:</h5>
+        <ul>
+            {{ range .Params.Tags }}
+            <li>{{ . | safeHTML }}</li>
+            {{ end }}
+        </ul>
+        {{ end }}
+    </div>
+</div>
 {{ end }}
