@@ -1,0 +1,13 @@
+{
+  "name": "Me.Bitfiend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Bitfiend/Me.Bitfiend",
+  "author": "AmosGarner <aagarner.7@gmail.com>",
+  "license": "APACHE",
+  "devDependencies": {
+    "postcss": "^6.0.19",
+    "postcss-cli": "^6.0.0",
+    "tailwindcss": ">=0.6.5"
+  }
+}

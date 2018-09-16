@@ -1,0 +1,14 @@
+<nav class="flex flex-wrap bg-black p-4">
+    <a class="no-underline hover:underline text-orange font-normal font-mono text-3xl border-r-2 border-grey" href="{{ $.Site.BaseURL }}">
+        <span class="mr-4">{{ $.Site.Title }}</span>
+    </a>
+    <ul class="list-reset flex sm:flex-row flex-col sm:ml-auto ml-0 sm:items-center items-left">
+        {{ range $.Site.Params.Navigation.Right.Links}}
+        <li class="px-4 sm:border-r-2">
+            <a class="no-underline hover:underline text-orange hover:text-orange-light font-hairline sm:text-xl text-2xl" href="{{ .link }}">
+                {{ .title }}
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+</nav>

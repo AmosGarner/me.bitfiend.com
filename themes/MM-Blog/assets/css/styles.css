@@ -1,0 +1,10 @@
+@tailwind preflight;
+
+@tailwind components;
+
+@tailwind utilities;
+
+body{
+    background-image: url("/images/Background.jpg");
+    background-repeat: repeat;
+}

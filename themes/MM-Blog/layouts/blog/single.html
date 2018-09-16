@@ -1,0 +1,30 @@
+{{ define "main" }}
+<div class="bg-black text-center">
+    <div class="text-left bg-white p-5 rounded-lg">
+        <div class="bg-white text-center mb-5">
+            <h2 class="text-black text-3xl">{{ .Title }}</h2>
+            <h3 class="text-lg text-grey-darkest">By: {{range .Params.blog_authors }}{{ .name }}{{ end }}</h3>
+        </div>
+        
+        <div class="p-5 border border-grey-light rounded overflow-y-auto scrollbar-w-2 scrollbar-track-grey-lighter scrollbar-thumb-rounded scrollbar-thumb-grey scrolling-touch shadow-lg"
+            style="height: 400px;">
+            {{ .Content }}
+        </div>
+
+        <div class="p-5 mt-2 border border-grey-light rounded">
+            <h4>Article Data:</h4>
+            <h5>Created: <time datetime="{{ .Params.Date }}">{{ .Date.Format "January 2, 2006" }}</time> | Words: {{ .WordCount }}</h5>
+            {{ if .Params.Tags.Len}}
+            <div class="bg-black p-5 rounded">
+                <h5>Tags:</h5>
+                <ul>
+                    {{ range .Params.Tags }}
+                    <li>{{ . | safeHTML }}</li>
+                    {{ end }}
+                </ul>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</div>
+{{ end }}

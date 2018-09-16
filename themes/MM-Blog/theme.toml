@@ -1,0 +1,10 @@
+name = "MM Blog"
+license = "Apache 2.0"
+licenselink = "https://github.com/bitfiend/me.bitfiend/LICENSE.md"
+description = ""
+homepage = "https://me.bitfiend.com/"
+min_version = "0.38"
+
+[author]
+  name = "Amos Garner"
+  homepage = "https://me.bitfiend.com"
