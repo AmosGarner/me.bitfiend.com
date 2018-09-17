@@ -23,15 +23,15 @@ title = "Resumé"
 [params.navigation]
 link = "/"
 [[params.navigation.right.links]]
-icon = ""
-link = "presentations"
-prefix = ""
-title = "Presentations"
-[[params.navigation.right.links]]
 icon = "readme"
 link = "/blog"
 prefix = "fab"
 title = "Blog"
+[[params.navigation.right.links]]
+icon = "presentation"
+link = "presentations"
+prefix = ""
+title = "Presentations"
 [[params.navigation.right.links]]
 icon = "address-card"
 link = "/resume"
