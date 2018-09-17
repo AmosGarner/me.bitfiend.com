@@ -28,7 +28,7 @@ link = "/blog"
 prefix = "fab"
 title = "Blog"
 [[params.navigation.right.links]]
-icon = "presentation"
+icon = "presentations"
 link = "/presentations"
 prefix = ""
 title = "Presentations"
