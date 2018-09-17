@@ -22,20 +22,6 @@ link_text = "Learn More"
 title = "Resumé"
 [params.navigation]
 link = "/"
-[[params.navigation.right.links]]
-label = "readme"
-link = "/blog"
-prefix = "fab"
-title = "Blog"
-[[params.navigation.right.links]]
-title = "Presentations"
-link = "/presentations"
-[[params.navigation.right.links]]
-title = "Resumé"
-link = "/resume"
-[[params.navigation.right.links]]
-title = "Contact"
-link = "/contact"
 [params.navigation.social]
 icon = "link"
 prefix = "fas"
