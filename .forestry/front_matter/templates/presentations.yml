@@ -16,7 +16,7 @@ fields:
   config:
     required: true
 - type: text
-  name: presentation-url
+  name: href
   label: Presentation URL
   description: Url to hosted presentation.
   config:
