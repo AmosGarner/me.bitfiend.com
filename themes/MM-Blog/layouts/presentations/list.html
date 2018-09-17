@@ -1,5 +1,5 @@
 {{ define "main" }}
-<div class="bg-black text-center p-2">
+<div class="bg-black p-2">
     <h1 class="text-white text-center font-normal text-4xl p-5">{{ .Title }}</h1>
     <div class="container mx-auto max-w-lg rounded-lg bg-black">
         <h4 class="text-white text-center font-hairline text-lg">{{ .Content }}</h4>
@@ -8,11 +8,14 @@
             {{ $paginator := (.Paginator 5) }}
             {{ partial "pagination.html" . }}
             {{ range $paginator.Pages }}
-            <div class="shadow-lg p-5 m-5 bg-transparent hover:bg-orange-dark text-orange hover:text-white border border-orange hover:border-transparent">
-                <a class="no-underline text-orange-darker" href="https://{{ .Params.href }}" alt="{{ .Params.Title }}">
-                    <h4><time>{{ .Date.Format "January 2, 2006" }}</time> | {{ .Params.Title }}</h4>
-                    <p>{{ .Params.Description | safeHTML | truncate 70 }}</p>
-                </a>
+            <div class="my-2 mx-auto  bg-black p-5 w-full rounded overflow-hidden shadow-lg">
+                <img class="w-full rounded" src="{{ $.Site.BaseURL}}/uploads/{{ .Params.Thumbnail }}" alt="{{ .Params.Title }} Thumbnail">
+                <div class="px-6 py-4">
+                    <div class="font-bold text-xl mb-2 text-orange">{{ .Params.Title }}</div>
+                    <p class="text-white text-base">{{ .Params.Description }}</p>
+                    <a class="no-underline inline-block mt-2 bg-orange hover:bg-orange-dark text-black font-bold py-2 px-4 rounded"
+                        href="https://{{ .Params.href }}">View &gt;</a>
+                </div>
             </div>
             {{ end }}
         </div>
