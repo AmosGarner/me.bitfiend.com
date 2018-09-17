@@ -1,0 +1,30 @@
+---
+label: Presentations
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  name: title
+  label: Title
+  description: Title of the Presentation.
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Description
+  description: Description of the presentation's content.
+  config:
+    required: true
+- type: text
+  name: url
+  label: url
+  description: Url to hosted presentation.
+  config:
+    required: true
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: Thumbnail image of the presentation.
+- type: boolean
+  name: published
+  label: Published
