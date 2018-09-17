@@ -23,25 +23,19 @@ title = "Resumé"
 [params.navigation]
 link = "/"
 [[params.navigation.right.links]]
-icon = "readme"
+label = "readme"
 link = "/blog"
 prefix = "fab"
 title = "Blog"
 [[params.navigation.right.links]]
-icon = "presentations"
-link = "/presentations"
-prefix = ""
 title = "Presentations"
+link = "/presentations"
 [[params.navigation.right.links]]
-icon = "address-card"
-link = "/resume"
-prefix = "fas"
 title = "Resumé"
+link = "/resume"
 [[params.navigation.right.links]]
-icon = "envelope"
-link = "/contact"
-prefix = "fas"
 title = "Contact"
+link = "/contact"
 [params.navigation.social]
 icon = "link"
 prefix = "fas"
