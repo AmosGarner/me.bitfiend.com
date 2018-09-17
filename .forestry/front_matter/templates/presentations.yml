@@ -25,6 +25,3 @@ fields:
   name: thumbnail
   label: Thumbnail
   description: Thumbnail image of the presentation.
-- type: boolean
-  name: published
-  label: Published
