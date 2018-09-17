@@ -23,17 +23,17 @@ title = "Resumé"
 [params.navigation]
 link = "/"
 [[params.navigation.right.links]]
-title = "Presentations"
-link = "/presentations"
+link = "/blog"
+title = "Blog"
 [[params.navigation.right.links]]
-title = "Presentations"
 link = "/presentations"
+title = "Presentations"
 [[params.navigation.right.links]]
-title = "Resumé"
 link = "/resume"
+title = "Resumé"
 [[params.navigation.right.links]]
-title = "Contact"
 link = "/contact"
+title = "Contact"
 [params.navigation.social]
 icon = "link"
 prefix = "fas"
