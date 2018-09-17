@@ -25,3 +25,5 @@ fields:
   name: thumbnail
   label: Thumbnail
   description: Thumbnail image of the presentation.
+pages:
+- content/presentations/git-functional.md
