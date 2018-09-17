@@ -23,11 +23,11 @@ draft: false
                 <textarea class="rounded shadow-lg w-full p-2 border border-grey-light focus:outline-none focus:shadow-outline"
                     id="content" name="content" rows="4" placeholder="Enter contents of your message here." required></textarea>
         </div>
-        <div>
+        <div class="mb-4">
             <input type="checkbox" tabindex="0" required>
             <label>I agree to have my contact information stored by this website.</label>
         </div>
-        <div data-netlify-recaptcha></div>
-        <button class="mt-4 bg-transparent hover:bg-orange text-orange-dark font-semibold hover:text-white py-2 px-4 border border-orange hover:border-transparent rounded" type="submit" name="button">Send Message</button>
+        <div class="mb-4" data-netlify-recaptcha></div>
+        <button class="bg-transparent hover:bg-orange text-orange-dark font-semibold hover:text-white py-2 px-4 border border-orange hover:border-transparent rounded" type="submit" name="button">Send Message</button>
     </form>
 </div>
