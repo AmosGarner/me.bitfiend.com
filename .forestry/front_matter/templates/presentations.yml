@@ -26,4 +26,5 @@ fields:
   label: Thumbnail
   description: Thumbnail image of the presentation.
 pages:
+- content/presentations/creative-thinking.md
 - content/presentations/git-functional.md
