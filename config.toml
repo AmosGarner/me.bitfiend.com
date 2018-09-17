@@ -29,7 +29,7 @@ prefix = "fab"
 title = "Blog"
 [[params.navigation.right.links]]
 icon = "presentation"
-link = "presentations"
+link = "/presentations"
 prefix = ""
 title = "Presentations"
 [[params.navigation.right.links]]
