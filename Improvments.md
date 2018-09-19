@@ -7,17 +7,13 @@
 * Global Styles for Code and Pre-Code
 
 ## Blog List
-* Left Align Titles (Done)
-* More space for snippets (Done)
-* Remove Orange Outline (Done)
-* Show Shadow on hover only (Done)
+* Left Align Titles (ef76ea6db3ef9107a2472a682a9c9b88768657cc)
+* More space for snippets (ef76ea6db3ef9107a2472a682a9c9b88768657cc)
+* Remove Orange Outline (ef76ea6db3ef9107a2472a682a9c9b88768657cc)
+* Show Shadow on hover only (ef76ea6db3ef9107a2472a682a9c9b88768657cc)
 
 ## Blog Single
-* Nix Post Scroll Feature
-* Paragraph breaks (Content change)
-* More lineheight on content (1.3 - 1.6)
-* Rounded TV-Scroll Box Post Thing
-* Insert By: [Author]
-* Love on Link Colors
-* Consider Left Align on Main Title
-    * Increase size of Main Header and decrese article header
+* Nix Post Scroll Feature (Done)
+* More lineheight on content (1.3 - 1.6) (Done)
+* Nix Rounded TV-Scroll Box Post Thing (Done)
+* Consider Left Align on Main Title (Done)
