@@ -5,7 +5,6 @@
     </head>
     <body class="flex flex-col min-h-screen">
         {{ partial "nav.html" . }}
-        {{ partial "breadcrumbs.html" . }}
         <div class="container mx-auto max-w-lg rounded-lg my-2 py-3 px-5">
             {{ block "main" . }}
             {{ end }}
