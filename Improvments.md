@@ -13,7 +13,7 @@
 * Show Shadow on hover only (ef76ea6db3ef9107a2472a682a9c9b88768657cc)
 
 ## Blog Single
-* Nix Post Scroll Feature (Done)
-* More lineheight on content (1.3 - 1.6) (Done)
-* Nix Rounded TV-Scroll Box Post Thing (Done)
-* Consider Left Align on Main Title (Done)
+* Nix Post Scroll Feature (3b1c53646c85b037fa33d9370475bfce11cec4bc)
+* More lineheight on content (1.3 - 1.6) (3b1c53646c85b037fa33d9370475bfce11cec4bc)
+* Nix Rounded TV-Scroll Box Post Thing (3b1c53646c85b037fa33d9370475bfce11cec4bc)
+* Consider Left Align on Main Title (3b1c53646c85b037fa33d9370475bfce11cec4bc)
